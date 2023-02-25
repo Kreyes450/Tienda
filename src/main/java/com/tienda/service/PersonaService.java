@@ -24,7 +24,7 @@ public class PersonaService implements IPersonaService{
 
     @Override
     public Persona getPersonaById(long id) {
-        return personaRepository.findAllById(id).orElse(null);
+        return personaRepository.findById(id).orElse(null);
     }
 
     @Override

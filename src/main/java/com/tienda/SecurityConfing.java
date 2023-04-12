@@ -76,4 +76,5 @@ public class SecurityConfing extends WebSecurityConfigurerAdapter {
     //El sieguiente metodo funciona para realizar la autorizacion de accesos
     //i18n
     
+    
 }
